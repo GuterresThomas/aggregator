@@ -19,8 +19,8 @@ impl Summary for NewsArticle {
 pub struct Tweet {
     pub username: String,
     pub content: String,
-    pub reply: String,
-    pub retweet: String,
+    pub reply: bool,
+    pub retweet: bool,
 }
 
 impl Summary for Tweet {
